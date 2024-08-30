@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abito-app/static/css/main.72186e4f.css",
+    "main.js": "/abito-app/static/js/main.8269d386.js",
+    "static/media/roboto-v32-cyrillic_latin-700.woff2": "/abito-app/static/media/roboto-v32-cyrillic_latin-700.07458d3acd0b634b8e62.woff2",
+    "static/media/roboto-v32-cyrillic_latin-regular.woff2": "/abito-app/static/media/roboto-v32-cyrillic_latin-regular.6a3f567f7b7f18ab86a1.woff2",
+    "index.html": "/abito-app/index.html",
+    "main.72186e4f.css.map": "/abito-app/static/css/main.72186e4f.css.map",
+    "main.8269d386.js.map": "/abito-app/static/js/main.8269d386.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72186e4f.css",
+    "static/js/main.8269d386.js"
+  ]
+}
