@@ -1,14 +1,15 @@
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
     return (
         <header className="header">
             <div className="container">
                 <div className="header-box">
-                    <a className="header-logo" href="/">
+                    <Link className="header-logo" to={'/'}>
                         <img src="/image/logo.svg" alt="Логотип Abito" />
                         <span>Abito</span>
-                    </a>
+                    </Link>
                     <div className="header-controls">
                         <button className="btn btn-outline">Вход и регистрация</button>
                         <button className="btn btn-primary">Подать объявление</button>

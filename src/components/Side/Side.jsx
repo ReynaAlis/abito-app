@@ -1,6 +1,6 @@
 import './Side.css';
 
-export const Side = ({title, text, img}) => {
+export const Side = ({ title, text, img }) => {
     return (
         <div className="content-side__item">
             <img className="content-side__item--img" src={img} alt="Доставка" />

@@ -209,6 +209,7 @@ body {
   width: 100%;
   min-width: 270px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 .content-product__right {
