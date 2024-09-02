@@ -1,4 +1,4 @@
-import { useOutletContext } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 import { Card } from "../components/Card/Card";
 import { Side } from "../components/Side/Side";
 import { sideArray } from "../contstants";
@@ -46,8 +46,8 @@ export const Home = () => {
 
                                 <div className="content-side__footer">
                                     <p className="content-side__footer--text">© ООО «Абито», 2011–2021</p>
-                                    <a className="content-side__footer--link" href="#!">Политика конфиденциальности</a>
-                                    <a className="content-side__footer--link" href="#!">Обработка данных</a>
+                                <Link className="content-side__footer--link" to="/non-existent-page">Политика конфиденциальности</Link>
+                                <Link className="content-side__footer--link" to="/non-existent-page">Обработка данных</Link>
                                 </div>
                             </div>
                         </div>

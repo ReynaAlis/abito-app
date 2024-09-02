@@ -1,7 +1,18 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export const Header = () => {
+    const navigate = useNavigate();
+
+    const handleAuthClick = () => {
+        navigate('/non-existent-page');
+    };
+
+    const handlePostClick = () => {
+        navigate('/non-existent-page');
+    };
+
     return (
         <header className="header">
             <div className="container">
@@ -11,8 +22,8 @@ export const Header = () => {
                         <span>Abito</span>
                     </Link>
                     <div className="header-controls">
-                        <button className="btn btn-outline">Вход и регистрация</button>
-                        <button className="btn btn-primary">Подать объявление</button>
+                        <button className="btn btn-outline" onClick={handleAuthClick}>Вход и регистрация</button>
+                        <button className="btn btn-primary" onClick={handlePostClick}>Подать объявление</button>
                     </div>
 
                     <div className="header-burger">
