@@ -1,5 +1,3 @@
-## Available Scripts
-
 # Abito App
 
 ## Описание
